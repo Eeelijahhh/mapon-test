@@ -1,6 +1,8 @@
-## [vite](https://vitejs.dev/) + [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/) Starter
+# Mapon Test Task
 
-This setup includes:
+## To run the project locally
 
-- [vite](https://vitejs.dev/)
-- [eslint](https://eslint.org/), [typescript-eslint](https://typescript-eslint.io/), [eslint-airbnb-config](https://github.com/airbnb/javascript), [prettier](https://prettier.io/)
+- Install dependencies: `npm install`
+- Copy the .env file - `cp .env.sample .env`
+- Specify the API keys inside the `.env` file
+- Run the command: `npm run dev` OR `npm run build` and `npm run preview`

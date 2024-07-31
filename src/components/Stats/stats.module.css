@@ -1,0 +1,21 @@
+.root {
+  padding: 26px 0;
+}
+
+.value {
+  color: #384045;
+  font-size: 30px;
+}
+
+.label {
+  color: #797f82;
+  font-size: 12px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}

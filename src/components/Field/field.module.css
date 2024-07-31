@@ -1,0 +1,11 @@
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label {
+  font-size: 14px;
+  color: #384045;
+  line-height: 19px;
+}

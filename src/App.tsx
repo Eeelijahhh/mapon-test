@@ -1,7 +1,19 @@
-import styles from './App.module.css';
+import { Provider } from 'react-redux';
+import { store } from './store';
+import PageLayout from './components/PageLayout';
+import RouteReportForm from './modules/RouteReportForm';
+import RouteReport from './modules/RouteReport';
 
 const App = () => {
-  return <h1 className={styles.root}>Hello World!</h1>;
+  return (
+    <Provider store={store}>
+      <PageLayout>
+        <RouteReportForm>
+          <RouteReport />
+        </RouteReportForm>
+      </PageLayout>
+    </Provider>
+  );
 };
 
 export default App;

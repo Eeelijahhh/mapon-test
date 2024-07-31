@@ -29,5 +29,12 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
+    'no-param-reassign': 0,
+    'no-restricted-exports': 0,
+    'react/prop-types': 0,
+    'react/jsx-props-no-spreading': 0,
+    'react/button-has-type': 0,
+    'react/no-array-index-key': 0,
+    'import/no-named-as-default': 0,
   },
 };

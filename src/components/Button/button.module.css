@@ -1,0 +1,11 @@
+.root {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  background-color: #98ca02;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
